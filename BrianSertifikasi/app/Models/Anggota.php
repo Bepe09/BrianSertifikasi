@@ -9,7 +9,7 @@ class Anggota extends Model
 {
     use HasFactory;
 
-    protected $table = 'anggota';
+    //protected $table = 'anggota';
     protected $primaryKey = 'id_anggota';
 
     protected $fillable = [
